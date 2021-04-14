@@ -1,17 +1,54 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom";
+import { createGlobalStyle, ThemeProvider } from "styled-components";
+import Routes from "./Routes";
+
+const GlobalStyle = createGlobalStyle`
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nanum Gothic", sans-serif;
+  line-height: 1;
+}
+input {
+  background: transparent;
+  border: 0;
+  outline: 0;
+}
+button {
+  background: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+ul,
+li {
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+`;
+
+const theme = {
+  themeColor: "#006633",
+  basicColor: "#f4f4f2",
+  navfooColor: "#2c2a29",
+  navfontColor: "#669900",
+};
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <>
+    <GlobalStyle />
+    <ThemeProvider theme={theme}>
+      <Routes />
+    </ThemeProvider>
+  </>,
+  document.getElementById("root")
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
