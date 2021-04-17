@@ -4,11 +4,12 @@ import { createGlobalStyle, ThemeProvider } from "styled-components";
 import Routes from "./Routes";
 
 const GlobalStyle = createGlobalStyle`
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #414141;
 }
 body {
   font-family: "Nanum Gothic", sans-serif;
@@ -37,7 +38,7 @@ a {
 `;
 
 const theme = {
-  themeColor: "#006633",
+  themeColor: "#575757",
   basicColor: "#f4f4f2",
   navfooColor: "#2c2a29",
   navfontColor: "#669900",
