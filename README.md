@@ -1,4 +1,4 @@
-# 코로나19 예방접종센터 조회 서비스
+# 코로나19 예방접종센터 조회 
 
 ## Table of Contents
 1. [Goals](#goals)
