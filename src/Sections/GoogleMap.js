@@ -34,13 +34,15 @@ const GoogleMapWrap = styled.section`
 `;
 
 const Marker = styled.div`
+  position: absolute;
   width: 30px;
   height: 30px;
   border: 1px solid white;
   border-radius: 50% 50% 50% 0;
   background: ${props => (props.isHovered ? "#D4293F" : "#00cae9")};
-  position: absolute;
   transform: rotate(-45deg);
-  cursor: "pointer";
   z-index: ${props => (props.isHovered ? 1 : 0)};
+  &:hover {
+    z-index: 1;
+  }
 `;

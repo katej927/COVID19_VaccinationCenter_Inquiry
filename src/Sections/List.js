@@ -12,7 +12,7 @@ export default function List({
   return (
     <ListWrapper>
       {allDatas?.map(center => {
-        const isClicked = focusedCenterId === center.id;
+        const isHovered = focusedCenterId === center.id;
         return (
           <ListWrap
             onClick={() =>
@@ -38,13 +38,13 @@ export default function List({
             }
           >
             <NameTypeWrap>
-              <CenterName isClicked={isClicked}>{center.centerName}</CenterName>
+              <CenterName isHovered={isHovered}>{center.centerName}</CenterName>
               <CenterType>&nbsp;({center.centerType})</CenterType>
             </NameTypeWrap>
-            <FacilityName isClicked={isClicked}>
+            <FacilityName isHovered={isHovered}>
               {center.facilityName}
             </FacilityName>
-            <Address isClicked={isClicked}>위치: {center.address}</Address>
+            <Address isHovered={isHovered}>위치: {center.address}</Address>
             {pdfBtn}
           </ListWrap>
         );
@@ -83,7 +83,7 @@ const NameTypeWrap = styled.div`
 `;
 
 const CenterName = styled.div`
-  color: ${props => (props.isClicked ? "#0a6da6" : "#414141")};
+  color: ${props => (props.isHovered ? "#0a6da6" : "#414141")};
   font-size: 30px;
   font-weight: bold;
 `;
@@ -95,7 +95,7 @@ const CenterType = styled.div`
 
 const FacilityName = styled.div`
   width: fit-content;
-  ${props => (props.isClicked ? "border-bottom: 1px solid #414141" : "")};
+  ${props => (props.isHovered ? "border-bottom: 1px solid #414141" : "")};
   font-size: 27px;
 `;
 
