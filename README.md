@@ -3,10 +3,11 @@
 ## Table of Contents
 1. [Goals](#goals)
 2. [My Plan](#my-plan)
-3. [Techs](#techs)
-4. [Folder Structure](#folder-structure)
-5. [Trouble shooting](#trouble-shooting)
-6. [Takeaway](#takeaway)
+3. [Period](#period)
+4. [Techs](#techs)
+5. [Folder Structure](#folder-structure)
+6. [Trouble shooting](#trouble-shooting)
+7. [Takeaway](#takeaway)
 
 ## Goals
 > **공공 데이터 API를 활용해 코로나 예방접종센터 조회 페이지 구현**
@@ -29,12 +30,16 @@
 - 다운로드 버튼 클릭 시, 선택한 센터에 대한 pdf 다운로드
 - AWS 배포로 URL 입력 시, 접근 가능
 
+## Period
+2021.4.15 ~ 4.18
+
 ## Techs
 - React Hooks
 - google-map-react
 - react-to-pdf
 - styled-components
 - styled-icons
+- node express
 
 ## Folder Structure
 ```jsx
@@ -59,9 +64,7 @@
 
 > **직접 기획 및 디자인**
 
-- 처음 하는 거라서 고민이 많이 됐음
-
-    → 점점 아이디어가 생각났다.
+- 처음 하는 거라서 고민이 많이 됐으나 점점 아이디어가 생각났다.
 
 - 초기 설계와 클린 코드를 위한 노력
 
@@ -69,7 +72,7 @@
 
     → 설계 & 진행 동시 시작
 
-    → **최대한 `효율적인 코드`, 한 코드도 허투루 쓰지 않기 위해 노력**
+    → 최대한 `효율적인 코드`, 한 코드도 허투루 쓰지 않기 위해 노력
     
     
 > **공공 데이터 오픈 API 사용**
@@ -99,9 +102,9 @@
 
     → 선택한 센터에 대한 pdf 다운로드를 위해 각 센터마다 버튼을 주고자 함
 
-    → ref만을 props로 내리고자 했으나 실패
+    → 화면 전체를 참조하는 ref를 props로 내리고자 했으나 실패
 
-- PDF를 변수에 담아 자식에 내려주면 사용 가능
+- 해결: PDF를 변수에 담아 자식 컴포넌트에 내려주기
 
 > **front에서의 첫 aws 배포**
 
@@ -109,9 +112,9 @@
 
     서버만 배포했고 프론트 단의 배포는 처음이어서 구글링, 커뮤니티, 백엔드 동기 찬스까지 활용했으나 답을 얻지 못하고 ec2,/s3 (CLI) 생성까지 하며 프리티어 한도 초과 발생
 
-- ec2로 배포 가능한 방법 발견 후, 적용
+- 포기 하지 않고 ec2에서 node express를 사용해 로컬 서버 로 바꿔주는 방법 찾아 적용
 
 ## Takeaway
-- 대부분 처음 시도하는 것이 많아 시간이 좀 걸렸기에 활용 경험이 있었더라면 훨씬 빠르지 않았을까 하는 아쉬움
 - 포기하지 않고 기획한 구현 기능 모두 구현해서 뿌듯
 - 프론트는 역시 재밌다는 생각
+- 대부분 처음 시도하는 것이 많아 시간이 좀 걸렸기에 활용 경험이 있었더라면 훨씬 빠르지 않았을까 하는 아쉬움
