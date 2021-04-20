@@ -4,7 +4,7 @@
 ## Table of Contents
 1. [Goals](#goals)
 2. [My Plan](#my-plan)
-3. [Period](#period)
+3. [About](#about)
 4. [Techs](#techs)
 5. [Folder Structure](#folder-structure)
 6. [Trouble shooting](#trouble-shooting)
@@ -31,8 +31,9 @@
 - 다운로드 버튼 클릭 시, 선택한 센터에 대한 pdf 다운로드
 - AWS 배포로 URL 입력 시, 접근 가능
 
-## Period
-2021.4.15 ~ 4.18
+## About
+- 개발자: 정선미
+- 기간: 2021.4.15 ~ 4.18
 
 ## Techs
 - React Hooks
