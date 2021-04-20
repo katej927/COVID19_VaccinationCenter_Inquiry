@@ -1,8 +1,5 @@
 # 오픈 API를 활용한 코로나19 예방접종센터 조회
-**[ ▼ 배포 URL 및 지도 확대 ]**
-<img src="https://im6.ezgif.com/tmp/ezgif-6-03f389a628b8.gif" width="950" height="519.3" />
-**[ ▼ PDF 생성 ]**
-<img src="https://im6.ezgif.com/tmp/ezgif-6-008ea5b4d9b7.gif" width="950" height="519.3" />
+<img src="https://im6.ezgif.com/tmp/ezgif-6-03f389a628b8.gif" width="838" height="458.094" />
 
 ## Table of Contents
 1. [Goals](#goals)
@@ -102,6 +99,7 @@
     처음에 자꾸 지도 밖에 마커가 찍혔다. → 위/경도 바꾸면 사용 가능
     
 > **PDF**
+<img src="https://im6.ezgif.com/tmp/ezgif-6-008ea5b4d9b7.gif" width="838" height="458.094" />
 
 - ref는 부모에서 버튼은 자식에서
 
