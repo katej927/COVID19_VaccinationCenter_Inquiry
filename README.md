@@ -1,4 +1,4 @@
-# 코로나19 예방접종센터 조회 
+# 오픈 API를 활용한 코로나19 예방접종센터 조회
 <img src="https://media.vlpt.us/images/katej927/post/d4ed5eb8-0714-4e2a-b0f1-e420155918f6/%EC%BA%A1%EC%B2%98.PNG"  />
 
 ## Table of Contents
@@ -11,7 +11,7 @@
 7. [Takeaway](#takeaway)
 
 ## Goals
-> **공공 데이터 API를 활용해 코로나 예방접종센터 조회 페이지 구현**
+### 공공 데이터 API를 활용해 코로나 예방접종센터 조회 페이지 구현
         
 - 하나의 웹페이지로 구성 (화면 리스트 페이징)
 
