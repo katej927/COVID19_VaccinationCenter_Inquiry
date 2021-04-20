@@ -1,5 +1,8 @@
 # 오픈 API를 활용한 코로나19 예방접종센터 조회
-<img src="https://media.vlpt.us/images/katej927/post/d4ed5eb8-0714-4e2a-b0f1-e420155918f6/%EC%BA%A1%EC%B2%98.PNG"  />
+**[ ▼ 배포 URL 및 지도 확대 ]**
+<img src="https://im6.ezgif.com/tmp/ezgif-6-03f389a628b8.gif" width="950" height="519.3" />
+**[ ▼ PDF 생성 ]**
+<img src="https://im6.ezgif.com/tmp/ezgif-6-008ea5b4d9b7.gif" width="950" height="519.3" />
 
 ## Table of Contents
 1. [Goals](#goals)
