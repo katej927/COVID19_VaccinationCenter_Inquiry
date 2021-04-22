@@ -42,6 +42,7 @@
 - styled-components
 - styled-icons
 - node express
+- AWS EC2
 
 ## Folder Structure
 ```jsx
