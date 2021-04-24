@@ -13,7 +13,7 @@
 ## Goals
 ### 공공 데이터 API를 활용해 코로나 예방접종센터 조회 페이지 구현
         
-- 하나의 웹페이지로 구성 (화면 리스트 페이징)
+- 하나의 웹페이지로 구성 (화면 리스트)
 
      → centerName : 센터명, centerType : 센터유형, facilityName : 시설명, address : 주소
 
