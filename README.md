@@ -1,5 +1,6 @@
 # 오픈 API를 활용한 코로나19 예방접종센터 조회
-<img src="https://im6.ezgif.com/tmp/ezgif-6-03f389a628b8.gif" width="838" height="458.094" />
+
+![Alt Text](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FCOfqX%2Fbtq4cvpxoNR%2F4FL8QkcQdq69OFyVrR68Vk%2Fimg.gif)
 
 ## Table of Contents
 1. [Goals](#goals)
@@ -100,7 +101,8 @@
     처음에 자꾸 지도 밖에 마커가 찍혔다. → 위/경도 바꾸면 사용 가능
     
 > **PDF**
-<img src="https://im6.ezgif.com/tmp/ezgif-6-008ea5b4d9b7.gif" width="838" height="458.094" />
+
+![Alt Text](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FUqzZo%2Fbtq4cN4vvP3%2FEmHe5zkEE4NVp9fz8arML1%2Fimg.gif)
 
 - ref는 부모에서 버튼은 자식에서
 
