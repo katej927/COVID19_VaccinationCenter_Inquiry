@@ -3,6 +3,7 @@
 ![Alt Text](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FCOfqX%2Fbtq4cvpxoNR%2F4FL8QkcQdq69OFyVrR68Vk%2Fimg.gif)
 
 ## Table of Contents
+1. [Congrats 🎉](#congrats)
 1. [Goals](#goals)
 2. [My Plan](#my-plan)
 3. [About](#about)
@@ -10,6 +11,11 @@
 5. [Folder Structure](#folder-structure)
 6. [Trouble shooting](#trouble-shooting)
 7. [Takeaway](#takeaway)
+
+##  Congrats🎉
+잘 만들어진 GitHub 오픈소스 프로젝트를 소개하는 < [DevFoliOh](https://devfolio.kr/) > 에 제 프로젝트가 소개 되었습니다. 많관부 (많은 관심 부탁드려요) ! 🙂
+
+👉 [게시글 링크 (Click)](https://devfolio.kr/project/81)
 
 ## Goals
 ### 공공 데이터 API를 활용해 코로나 예방접종센터 조회 페이지 구현
